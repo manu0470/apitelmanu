@@ -24,7 +24,7 @@ function mensaje($ventana, $pagina, $imagen){
 
 					<div class='modal-body'>
 						<center>  
-						<img src='images/".$imagen."' width='30%'>
+						<img src='img/".$imagen."' width='30%'>
 						<b> ".$ventana."</b>
 						</center>
 					</div>
