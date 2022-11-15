@@ -7,10 +7,10 @@
     $validarTel=validarTel($tele);
 
     if($validarTel==1){
-        mensaje ("Telefono Validado", "index.php", "bien.jpg");
+        mensaje ("Telefono Validado", "index.php", "ok.jpg");
     }
     else{
-        mensaje ("Telefono No Validado", "index.php","mal.jpg");
+        mensaje ("Telefono No Validado", "index.php","error.jpg");
     }
 
 ?>
